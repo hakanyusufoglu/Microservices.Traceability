@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34909.67
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Request.Response.Scenario", "Request.Response.Scenario", "{A028444C-DDC5-4E43-886F-792690108F42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Method.Level.Scenario", "Method.Level.Scenario", "{E2831D70-79B5-456F-87E5-20D322BE108A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Message.Brokers.Scenario", "Message.Brokers.Scenario", "{98266F15-0EEF-4F1C-91E3-27A89B5B700E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Application", "Console.Application\Console.Application.csproj", "{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4} = {E2831D70-79B5-456F-87E5-20D322BE108A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B148416-F7FE-40B4-A8DB-94F6DB5A330B}
+	EndGlobalSection
+EndGlobal
