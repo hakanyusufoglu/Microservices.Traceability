@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Method.Level.Scenario", "Me
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Message.Brokers.Scenario", "Message.Brokers.Scenario", "{98266F15-0EEF-4F1C-91E3-27A89B5B700E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Application", "Console.Application\Console.Application.csproj", "{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Application", "Console.Application\Console.Application.csproj", "{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Application", "AspNetCore.Application\AspNetCore.Application.csproj", "{E92B44F5-B055-4109-97B0-82E5A230058A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +23,17 @@ Global
 		{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92B44F5-B055-4109-97B0-82E5A230058A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92B44F5-B055-4109-97B0-82E5A230058A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92B44F5-B055-4109-97B0-82E5A230058A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92B44F5-B055-4109-97B0-82E5A230058A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{36E0C19E-ECFE-44CF-A3AB-C6E8325F97D4} = {E2831D70-79B5-456F-87E5-20D322BE108A}
+		{E92B44F5-B055-4109-97B0-82E5A230058A} = {A028444C-DDC5-4E43-886F-792690108F42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B148416-F7FE-40B4-A8DB-94F6DB5A330B}
